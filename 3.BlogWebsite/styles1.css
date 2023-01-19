@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 1.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#sub {
+    color: grey;
+    text-decoration: underline;
+}
+
+#title {
+    color: rgb(70, 69, 69);
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    margin-top: 1rem;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    border: 5px solid rgb(237, 235, 235);
+    padding-bottom: 1rem;
+}
+
+.card_heading1 {
+    color: rgb(40, 165, 232);
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.card_heading2 {
+    color: rgb(29, 201, 60);
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.card_title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.card_date {
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+    color: grey;
+}
+
+.card_des {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    color: rgb(41, 41, 41);
+    max-height: 2.1rem;
+    max-width: 50rem;
+    overflow: hidden;
+}
+
+.card_link {
+    margin-left: 1rem;
+    text-decoration: underline;
+    color: rgb(62, 172, 231);
+}
+
+@media (max-width:400px) {
+    .container {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: 1fr;
+    }
+}
