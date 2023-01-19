@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.divHeader {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    background-color: black;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+#gfg {
+    margin-left: 30px;
+}
+
+#web {
+    color: white;
+    align-self: center;
+}
+
+#cpro {
+    color: white;
+    align-self: center;
+}
+
+#courses {
+    color: white;
+    align-self: center;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+#ipText {
+    border-radius: 5px;
+    align-self: center;
+}
+
+#search {
+    background-color: black;
+    color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 4px;
+    align-self: center;
+    margin-right: 30px;
+}
+
+.div {
+    height: 330px;
+    border: 2px solid;
+}
+
+.heading {
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.content {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    overflow: auto;
+    height: 200px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#webDiv {
+    background-image: radial-gradient(green, white, orange);
+}
+
+#cDiv {
+    background-image: linear-gradient(to top right,violet, rgb(185, 114, 236), rgb(93, 93, 245), rgb(110, 216, 110), rgb(245, 245, 75), rgb(255, 68, 0), rgb(254, 141, 141));
+}
+
+#crDiv {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.759)50%, red);
+}
